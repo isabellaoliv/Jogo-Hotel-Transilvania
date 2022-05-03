@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Mirza&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image:url(../imagens/background1.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Mirza', cursive;
+}
+
+.maintitle{
+    padding: 30px;
+    -webkit-text-stroke: 0.5px black;
+    font-size: 1.2rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    width: 85%;
+    background-color: rgba(219, 218, 218, 0.493);
+    border-radius: 20px;
+    -webkit-text-stroke: 0.5px black;
+}
+
+.char-choice {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.char-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    transition: .2s linear;
+    text-transform: uppercase;
+}
+
+.char-item:hover{
+    transform: scale(1.1);
+}
+.char-lore {
+    font-size: 1.2rem;
+    padding: 0em;
+    width: 80%;
+    font-weight: 500;
+}
+
+img {
+    padding: 30px;
+}
